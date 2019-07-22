@@ -22,7 +22,10 @@ const internOne = {
   "id": 1,
   "name": "Mitzi",
   "email": "mmelly0@psu.edu",
-  "gender": "F",  
+  "gender": "F",
+  "speak": function(){
+    return "Hello, my name is " + this.name + "!";
+    }
 }
 
 const internTwo = {
@@ -40,6 +43,9 @@ const internThree = {
   "name": "Keven",
   "email": "kmummery2@wikimedia.org",
   "gender": "M",
+  "speak": function(){
+    return "Hello, my name is " + this.name + "!";
+    }
 }
 
 const internFour = {
@@ -47,6 +53,9 @@ const internFour = {
   "name": "Gannie",
   "email": "gmartinson3@illinois.edu",
   "gender": "M",
+  "speak": function(){
+    return "Hello, my name is " + this.name + "!";
+    }
 }
 
 const internFive = {
@@ -54,6 +63,9 @@ const internFive = {
   "name": "Antonietta",
   "email": "adaine5@samsung.com",
   "gender": "F",
+  "speak": function(){
+    return "Hello, my name is " + this.name + "!";
+    },
   "multiplyNums": function(num1, num2){
     return num1 * num2;
   }
